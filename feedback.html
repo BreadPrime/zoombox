@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="headerFooter.css">
+    <link rel="stylesheet" href="feedbackStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap">
+	  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="  crossorigin="anonymous"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+
+	<script>
+	$(function() {
+	      $("#futuredate").datepicker({
+          maxDate: 0
+        });
+	});
+	</script>
+  </head>
+  <body>
+    <table id="header">
+      <tr class="navbar">
+        <th><a href="mainpage.html">Zoombox</a></th>
+        <td class="navMain"><a href="Songs/all_songs.html">Songs</a></td>
+        <td class="navMain"><a href="Artist/all_artists.html">Artist</a></td>
+        <td class="navMain"><a href="Songs/sortby_genre.html">Genres</a></td>
+        <td class="navMain"><a href="Songs/sortby_lang.html">Languages</a></td>
+        <td class="navMainBuffer"></td>
+        <td class="navRight"><a href="feedback.html">Feedback</a></td>
+      </tr>
+      <tr class="content1">
+        <td colspan="6"></td>
+      </tr>
+      <tr class="content2">
+        <td colspan="6"></td>
+      </tr>
+      <tr class="content3">
+        <td  colspan="6"></td>
+      </tr>
+    </table>
+
+    <div class="page">
+        <div class="contact">
+              <h1 id="head1" style="text-align:center;"> Feedback Form </h1>
+              <div class="separator">
+              <form name="contact" action="response.php" method="POST" >
+              <label for='name'>Your Name</label><br>
+              <input type="text" name="name" placeholder="Your full name" required>
+              <br><br>
+              <label for='gender'>Your Gender</label><br>
+              <select name="gender" required>
+              <option value=""></option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+              </select><br><br>
+
+              <label for='email'>Your Email</label><br>
+              <input type="email" name="email" placeholder="Your e-mail" required><br><br>
+
+              <label for='type'>Type of Feedback</label><br>
+              <select name="type" required>
+              <option value=""></option>
+              <option value="suggestion">Suggestion</option>
+              <option value="complaint">Complaint</option>
+              <option value="enquiry">Enquiry</option>
+              <option value="complement">Complement</option>
+              </select><br><br>
+
+              <label for='feedback'>The Feedback</label><br>
+              <textarea rows="8" cols="86%" style="height:100px;" name="feedback" placeholder="Tell us what you think!" required></textarea><br><br>
+
+              <div id="container">
+                <div class="datetime">
+                 <label for="date">Date of Submission</label><br>
+                 <input type="text" name="date" id="futuredate" required>
+                </div>
+
+                <div class="datetime">
+                 <label for="time">Time of Submission</label><br>
+                 <input type="time" name="time" required>
+                </div>
+              </div>
+
+              <input class="button" type="submit">
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <table>
+        <tr>
+          <td rowspan="6" class="footer1">
+            <p>Zoombox is a database-less<br>lyrics collection developed by<br>4 college students.</p><br>
+            <div class="socmed">
+              <a href="https://twitter.com/ZoomBox_inc" target="_blank"><img width="3%" src="twitter.png"></a>
+              <a href="https://www.instagram.com/zoombox_inc/" target="_blank"><img width="3%" src="instagram.png"></a>
+              <a href="https://www.facebook.com/ZoomBox-Media-Inc-110291907360656/?modal=admin_todo_tour" target="_blank"><img width="3%" src="facebook.png"></a>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img width="3%" src="youtube.png"></a>
+            </div>
+          </td>
+        <!-- DO NOT TOUCH LINE BELOW-->
+          <td class="footer2_top"><a href="">About Zoombox</a></td>
+        <!--DO NOT TOUCH LINE ABOVE-->
+        </tr>
+        <tr>
+          <td class="footer2"><a href="about.html">About Zoombox</a></td>
+        </tr>
+        <tr>
+          <td class="footer2"><a href="privacy.html">Privacy Policy</a></td>
+        </tr>
+        <tr>
+          <td class="footer2"><a href="devs.html">Developers</a></td>
+        </tr>
+        <tr>
+          <td class="footer2"><a href="contact.html">Contact Us</a></td>
+        </tr>
+        <tr>
+          <td class="footer2"><a href="feedback.html">Feedback</a></td>
+        </tr>
+        <tr>
+          <td id="copyright" colspan="2"><br><br><br><br><br><br><br>©2020 Zoombox Media Inc.</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

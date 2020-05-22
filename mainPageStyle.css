@@ -1,0 +1,153 @@
+#removeMargin {
+  margin: 0;
+  padding: 0;
+}
+
+#gradient {
+  background-image: linear-gradient(#ad8762, #ead5bf 50%, #ffffff);
+}
+
+.header {
+  background-color: #ead5bf;
+}
+
+.header h1 {
+  font-size: 160px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 230px;
+  font-family:'Roboto Condensed', sans-serif;
+}
+
+span {
+  color: #2b2317;
+  background-color: #ad8762;
+  text-shadow: 6px 6px #1c1710;
+}
+
+sup {
+  font-size: 100px;
+}
+
+.content1 td {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 17px;
+  padding-left: 30px;
+  padding-bottom: 17px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content1 .tableHeader, .content2 .tableHeader {
+  width: auto;
+  color: #ffffff;
+  font-size: 50px;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: normal;
+  letter-spacing: 6px;
+  padding-bottom: 50px;
+  background-color: #ad8762;
+  font-family: 'Monoton', sans-serif;
+}
+
+.content1 .songHeader {
+  background-color: #ead5bf;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#select {
+  margin: 0;
+  padding: 0;
+}
+
+#select button {
+  width: 100%;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold;
+  padding: 17px 30px;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.0);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#select button:hover {
+  color: white;
+  background-color: #ad8762;
+}
+
+.content2 .tableHeader {
+  background-color: #ad8762;
+}
+
+#songTitle {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+#songDuration {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+#artistTable {
+  background-image: linear-gradient(#ad8762, #ffffff 42%, #ad8762);
+}
+
+.content2 .buffer {
+  padding-top: 175px;
+}
+
+.artistInfo {
+  width: auto;
+  padding-top: 45px;
+}
+
+div.artistImage {
+  width: 250px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #ead5bf;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.artistImage img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+div.artistImage img:hover {
+  opacity: 0.8;
+}
+
+div.artistName {
+  padding: 0;
+  text-align: center;
+  background-color: #ead5bf;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+div.artistName button {
+  width: 100%;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.0);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+div.artistName button:hover {
+  color: #ad8762;
+}
