@@ -1,0 +1,139 @@
+#removeMargin {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ead5bf;
+}
+
+.header p {
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 30px;
+  color: #2b2317;
+}
+
+.header h1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 60px;
+  color: #2b2317;
+}
+
+.content1 td {
+  font-family: 'Roboto Condensed';
+  font-weight: bold;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+#sortLinks {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #ad8762;
+  text-align: center;
+  width: 10%;
+  padding-left: 0;
+}
+
+#sortBy, #sortLang {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #ad8762;
+  color: white;
+  font-weight: bold;
+  padding-left: 40px;
+  text-align: left;
+  width: 10%;
+}
+
+#sortBy {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+#sortLang {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+#sortLinks a, #sortLang a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#sortLinks a:hover, #sortLang a:hover {
+  color: #ead5bf;
+}
+
+.sortBuffer {
+  width: 25%;
+  opacity: 0;
+}
+
+#sortHeader {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: #ad8762;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.content1 .songHeader {
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: #ad8762;
+}
+
+.songTable {
+  border-radius: 30px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff4e8;
+}
+
+#select {
+  margin: 0;
+  padding: 0;
+}
+
+#select button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 17px 30px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+  border-radius: 25px;
+  color: black;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+}
+
+#select button:hover {
+  background-color: #ead5bf;
+  color: black;
+}
+
+#gradient {
+  background-image: linear-gradient(#ead5bf, #ffffff 50%, #ad8762);
+}
+
+
+#songTitle {
+  border-bottom-left-radius: 40px;
+}
+
+#songDuration {
+  border-bottom-right-radius: 40px;
+}
