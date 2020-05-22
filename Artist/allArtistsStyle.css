@@ -1,0 +1,78 @@
+#removeMargin {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #ead5bf;
+}
+
+.header h1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 60px;
+  color: #2b2317;
+}
+
+.content1 td {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+#gradient {
+  background-image: linear-gradient(#ead5bf, #ffffff 50%, #ad8762);
+}
+
+
+.artistInfo {
+  width: auto;
+  padding-top: 40px;
+}
+
+div.artistImage {
+  width: 250px;
+  background-color: #ead5bf;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 25px;
+  margin: auto;
+  margin-left: 0;
+}
+
+div.artistImage img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+div.artistImage img:hover {
+  opacity: 0.8;
+}
+
+div.artistName {
+  background-color: #ead5bf;
+  text-align: center;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 0;
+}
+
+div.artistName button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+  border-radius: 25px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+}
+
+div.artistName button:hover {
+  color: #ad8762;
+}
